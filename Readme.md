@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Роман Гриневич](https://up.htmlacademy.ru/htmlcss/24/user/949295).
-* Наставник: [Кирилл Петров](https://htmlacademy.ru/profile/frozik). 
+* Наставник: [Кирилл Петров](https://htmlacademy.ru/profile/frozik). <!-- the best mentor! =) -->
  
 ---
 
