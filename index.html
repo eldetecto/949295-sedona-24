@@ -6,22 +6,35 @@
   </head>
   <body>
   	<header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo">
+      <div class="main-header-logo">
+        <a href="index.html">
           <img src="img/logo.png" width="" height="" alt="Логотип сайта города Седона">
         </a>
+      </div>        
+      <nav class="main-navigation">
         <ul class="site-navigation">
-          <li><a href="#information">Информация</a></li>
-          <li><a href="#photo_video">Фото и видео</a></li>
-          <li><a href="#map">Карта штата</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
           <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
     <main class="container">
-      <section class="first-screen">
+    <section class="first-screen">        
+        <div class="welcome">
+          <img src="img/welcome.png" alt="Welcome to the gorgeous"/>
+        </div>
+        <div class="sedona">
+          <img src="img/sedona.png" alt="Sedona"/>
+        </div>
+        <div class="quote phrase">
+          <img src="img/quote-phrase.png" alt="Because the Grand Canyon sucks!"/>
+        </div>        
+    </section>
+
+      <section class="description">
       	<h1 class="visually-hidden">Сайт города Седона</h1>
-      	<div class="first-screen-pic"></div>
       	<h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
       </section>	
       <section class="features">
@@ -50,7 +63,7 @@
               <span>взрослые:</span>
           	  <div class="hotels-search-quantity">
           	    <button type="button">-</button>
-          	    <span></span>
+          	    <input type="number" name="adult-quantity">
           	    <button type="button">+</button>
           	  </div>
           	</p>
@@ -58,12 +71,12 @@
               <span>дети:</span>
           	  <div class="hotels-search-quantity">
           	    <button type="button">-</button>
-          	    <span></span>
+          	    <input type="number" name="child-quantity">
           	    <button type="button">+</button>
           	  </div>
           	</p>
           </p>
-          <button type="button">найти</button>
+          <a class="hotels-search-find" href="#">найти</a>
         </section>      	
       </section>
     </main>
