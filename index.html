@@ -50,33 +50,35 @@
         </p>
         <section class="hotels-search">
           <p class="hotels-search-title">поиск гостиницы в седоне</p>
-          <p>
-          	<label for="hotels-search-date">Дата заезда:</label>
-          	<input id="hotels-search-date" type="date" name="hotels-search-date">
-          </p>
-          <p>
-          	<label for="hotels-search-date">Дата выезда:</label>
-          	<input id="hotels-search-date" type="date" name="hotels-search-date">
-          </p>
-          <p>
-          	<p>
-              <label for="adult-quantity">взрослые:</label>
-          	  <div class="hotels-search-quantity">
-          	    <button type="button">-</button>
-          	    <input id="adult-quantity" type="number" name="adult-quantity">
-          	    <button type="button">+</button>
-          	  </div>
-          	</p>
-          	<p>
-              <label for="child-quantity">дети:</label>
-          	  <div class="hotels-search-quantity">
-          	    <button type="button">-</button>
-          	    <input id="child-quantity" type="number" name="child-quantity">
-          	    <button type="button">+</button>
-          	  </div>
-          	</p>
-          </p>
-          <a class="hotels-search-find" href="#">найти</a>
+          <form method="post" action="/echo">
+	          <p>
+	          	<label for="hotels-search-date">Дата заезда:</label>
+	          	<input id="hotels-search-date" type="date" name="hotels-search-date" placeholder="24 апреля 2017">
+	          </p>
+	          <p>
+	          	<label for="hotels-search-date">Дата выезда:</label>
+	          	<input id="hotels-search-date" type="date" name="hotels-search-date" placeholder="4 июля 2017">
+	          </p>
+	          <p>
+	          	<p>
+	              <label for="adult-quantity">взрослые:</label>
+	          	  <div class="hotels-search-quantity">
+	          	    <button type="button">-</button>
+	          	    <input id="adult-quantity" type="number" name="adult-quantity" placeholder="2">
+	          	    <button type="button">+</button>
+	          	  </div>
+	          	</p>
+	          	<p>
+	              <label for="child-quantity">дети:</label>
+	          	  <div class="hotels-search-quantity">
+	          	    <button type="button">-</button>
+	          	    <input id="child-quantity" type="number" name="child-quantity" placeholder="0">>
+	          	    <button type="button">+</button>
+	          	  </div>
+	          	</p>
+	          </p>
+	          <input class="hotels-search-find" type="submit" value="Найти">
+          </form> 
         </section>      	
       </section>
     </main>
