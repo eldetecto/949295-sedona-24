@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
   </head>
-  <body>
+  <body class="main-container">
   	<header class="main-header">
       <div class="main-header-logo">
         <a href="index.html">
-          <img src="img/logo.png" width="" height="" alt="Логотип сайта города Седона">
+          <img src="img/logo.svg" alt="Логотип сайта города Седона">
         </a>
       </div>        
       <nav class="main-navigation">
         <ul class="site-navigation">
-          <li><a href="#">Информация</a></li>
+          <li class="active"><a href="index.html">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
+          <li></li>
           <li><a href="#">Карта штата</a></li>
           <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
     <section class="first-screen">        
         <div class="welcome">
-          <img src="img/welcome.png" alt="Welcome to the gorgeous"/>
+          <img src="img/welcome.svg" alt="Welcome to the gorgeous"/>
         </div>
-        <div class="sedona">
+<!--         <div class="first-screen-text sedona">
           <img src="img/sedona.png" alt="Sedona"/>
         </div>
-        <div class="quote phrase">
+        <div class="first-screen-text quote-phrase">
           <img src="img/quote-phrase.png" alt="Because the Grand Canyon sucks!"/>
-        </div>        
+        </div>    -->     
     </section>
-
+<!-- description и features в одну секцию нужно объединить?  -->
       <section class="description">
       	<h1 class="visually-hidden">Сайт города Седона</h1>
       	<h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -83,20 +85,21 @@
       </section>
     </main>
     <footer class="main-footer">
-      <p class="hashtag">#VISITSEDONA</p>
-      <div class="footer-social">
+      <p class="hashtag footer-column">#VISITSEDONA</p>
+      <div class="footer-social footer-column">
         <ul>
-          <li><a class="social-button" href="#">Twitter	</a></li>
-          <li><a class="social-button" href="#">Facebook</a></li>
-          <li><a class="social-button" href="#">Youtube</a></li>
+          <li><a class="social-button twitter" href="#">Twitter	</a></li>
+          <li><a class="social-button fb" href="#">Facebook</a></li>
+          <li><a class="social-button youtube" href="#">Youtube</a></li>
         </ul>
       </div>
-      <p class="footer-developer-logo">
+      <p class="footer-developer footer-column">
         <span>website by:</span> 
-        <a href="index.html">
-          <img src="img/logo-html-academy.png" width="" height="" alt="Логотип разработчика сайта HTML Academy">         
+        <a href="#">
+          <img src="img/logo-name.svg" alt="Логотип разработчика сайта HTML Academy">         
         </a>
       </p>
     </footer>      
   </body>
 </html>
+
